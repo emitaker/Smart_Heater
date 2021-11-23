@@ -13,8 +13,9 @@ from mysql.connector import connect, Error
 
 try:
     with connect(
-        host="localhost",#hostname where I'm going to connect
-        user="emitaker",#username where I'm goint to create the DB
+        host="192.168.100.7",#ip address of the server
+        port=3306,#db port
+        user="pi",#username of the db
         password="password",#user password
     ) as connection:
         print(connection)
