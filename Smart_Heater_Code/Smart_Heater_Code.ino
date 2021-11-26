@@ -103,7 +103,7 @@ void loop() {
  
   // Envia el dato al puerto serial
   Serial.print(tempC);
-  Serial.print("°C");
+  //Serial.print("°C");se comento por futuros problemas
   // Salto de línea
   Serial.print("\n");
   
