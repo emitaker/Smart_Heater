@@ -25,13 +25,12 @@ try:
             temperature FLOAT
         )
         """
+        arduino_lec = 0
         insert_temp_query = """
         INSERT INTO temperatures (temperature)
         VALUES
-            (19.94),
-            (20.09),
-            (20.15)
-        """
+            ({})
+        """.format(arduino_lec)
 
 
         with connection.cursor() as cursor:
