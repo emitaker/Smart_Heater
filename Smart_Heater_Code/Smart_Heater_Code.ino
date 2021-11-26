@@ -69,6 +69,8 @@ float tempC; // Variable para almacenar el valor de la temperatura en centígrad
 float sinVal; //Variable que almacena la amplitud de la señal sinusuidal
 int toneVal; //Variable que almacena la frecuencia del tono que se genera
 
+int lolxd;//este es un valor lol
+
 void setup() {
   // Configuramos el puerto serial a 9600 bps
   Serial.begin(9600);
