@@ -5,5 +5,5 @@ This project is a simulation of the Smart Heater embedded system of the tractors
 ## Dependencies
 * `mysql.connector` or better known as `MySQL Connector/Python` is used to connect to Apache Server.
 ```
-shell> pip install mysql-connector-python
+pip install mysql-connector-python
 ```
