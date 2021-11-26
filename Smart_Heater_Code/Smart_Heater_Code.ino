@@ -11,7 +11,7 @@
 
 //-----Declaración de pines y librerías a utilizar -----------------------------------------//
 #include <Wire.h> //Libreria para comunicarse con dispositivos por bus I2C 
-#include <LiquidCrystal_I2C.h> //Libreria para LCD con I2C
+#include <LiquidCrystal_I2C.h> //Library of the LCD with I2C
 #include <LedControl.h>    //Librería para controlar la matriz de leds 8x8
 #define BUZZER_ACTIVO 49 //Buzzer Activo
 #define TEMP 0 //Sensor de Temperatura LM35 conectado a A0
