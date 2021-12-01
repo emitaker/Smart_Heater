@@ -37,7 +37,8 @@ try:
         INSERT INTO temperatures (temperature)
         VALUES
             ({})
-        """.format(arduino_lec)
+        """.format(arduino_lec)#query that inserts the values 
+        #of arduino_lec into the table
 
 
         with connection.cursor() as cursor:
