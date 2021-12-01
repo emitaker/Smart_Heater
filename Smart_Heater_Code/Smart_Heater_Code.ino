@@ -108,7 +108,7 @@ void loop() {
   Serial.print("\n");
   
   // Esperamos un tiempo para repetir el loop
-  delay(1000);
+  
 
 //-------- Instrucciones del LCD con I2C ------------------------------------------------------//
 
@@ -132,7 +132,7 @@ void loop() {
   delay(200);
 
 //-------- Instrucciones del Buzzer Activo ----------------------------------------------------//
-  if(tempC >= 25){
+  if(tempC <= 10 || tempC >= 32){
     for (int i=0; i<180; i++){
 
       //Convertir grados a radianes para obtener el valor.
@@ -155,7 +155,8 @@ void loop() {
     //Mostrar la figura de la carita feliz
     mostrar(carita_feliz);  //llama funcion mostrar
     delay(10);            
-  }  
+  }
+  delay(10000);  
 }
 
 //---- Creación de la función para mostrar las figuras de la matriz de leds 8x8 ------------//
