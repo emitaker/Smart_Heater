@@ -1,10 +1,16 @@
 #-------------------------------------------------------------
 #
 # Emilio Campuzano Mejia
+# Daniel Fuentes Castro
+# Santiago Ortiz Suzarte
+# 
+# Smart heater system
 #
-# In this code I simulate the connection part to the DB of the  
-# smart heater system
-# This is only the DB creation step
+# You will need the mysql-connector-python library  
+#
+# This code only works if you are creating the db in the same device 
+# where the db is. If you are trying to create the db from a different
+# device, you will not be able to connect.
 #
 #-------------------------------------------------------------
 
