@@ -1,9 +1,16 @@
 #-------------------------------------------------------------
 #
 # Emilio Campuzano Mejia
+# Daniel Fuentes Castro
+# Santiago Ortiz Suzarte
+# 
+# Smart heater system
 #
-# In this code I simulate the insert into command
-# smart heater system
+# You will need the mysql-connector-python library  
+#
+# To establish a connection with the database, you have to run these queries:
+# CREATE USER 'pi'@'pi ip address' IDENTIFIED BY 'password'
+# GRANT ALL PRIVILEGES ON databasename.* TO 'pi'@'pi ip address'
 #
 #-------------------------------------------------------------
 
@@ -24,7 +31,7 @@ try:
             id INT AUTO_INCREMENT PRIMARY KEY,
             temperature FLOAT
         )
-        """
+        """#query that creates the temperatures table
         arduino_lec = 0
         insert_temp_query = """
         INSERT INTO temperatures (temperature)
