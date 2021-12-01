@@ -1,13 +1,19 @@
 #-------------------------------------------------------------
 #
 # Emilio Campuzano Mejia
+# Daniel Fuentes Castro
+# Santiago Ortiz Suzarte
+# 
+# Smart heater system
 #
-# In this code I simulate the connection part to the DB of the
-# smart heater system
+# You will need the mysql-connector-python library  
+#
+# To establish a connection with the database, you have to run these queries:
+# CREATE USER 'pi'@'pi ip address' IDENTIFIED BY 'password'
+# GRANT ALL PRIVILEGES ON databasename.* TO 'pi'@'pi ip address'
+# After that, you can run the code below 
 #
 #-------------------------------------------------------------
-#CREATE USER 'pi'@'192.168.100.35' IDENTIFIED BY 'password';
-#GRANT ALL PRIVILEGES ON databasename.* TO 'pi'@'192.168.100.35';
 
 from getpass import getpass
 from mysql.connector import connect, Error
