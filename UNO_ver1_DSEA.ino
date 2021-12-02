@@ -1,6 +1,6 @@
-//A01750402 Santiago Ortiz Suzarte
-//Daniel Fuentes Castro - A01750425
-//Emilio Campuzano Mejia - A01378948
+//Santiago Ortiz Suzarte
+//Daniel Fuentes Castro
+//Emilio Campuzano Mejia
 //ECU Arduino UNO ver. 1
 //monitorea temperatura usando LM35 y enciende un ventilador si el valor excede un limite o lo apaga si es inferior a un limite
 //Cuenta con display LCD para desplegar temperatura
