@@ -1,7 +1,7 @@
-//A01750402
+//Emilio Campuzano Mejia
+//Daniel Fuentes Castro
 //Santiago Ortiz Suzarte
 //Arduino MEGA 2560 ver. 2
-//se aprovechan los 4 pines seriales que posee la placa
 //monitorea niveles de combustible y se encarga de recibir datos por bluetooth y CAN BUS para enviarlos a base de datos
 
 #include <Arduino_FreeRTOS.h>
