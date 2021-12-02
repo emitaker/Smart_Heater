@@ -1,6 +1,6 @@
-//Santiago Ortiz Suzarte - A01750402
-//Daniel Fuentes Castro - A01750425
-//Emilio Campuzano Mejia - A01378948
+//Santiago Ortiz Suzarte
+//Daniel Fuentes Castro
+//Emilio Campuzano Mejia
 
 //Practica CAN
 //Codigo para Arduino emisor
